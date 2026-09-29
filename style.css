@@ -28,9 +28,9 @@ img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 50%;
     display: block;
-    margin: 20px auto;
+    margin-left: 0;
+	margim right:auto;
 
 }
 h1 {
@@ -41,5 +41,18 @@ h1 + p{
     text-align: center;
     font-size:  18px;
     font-weight: bold;
-
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+table,th,td {
+	border: 1px solid green;
+}
+th {
+	background-color: lightblue;
+	padding: 10 px;
+}
+ td {
+	padding: 10px;
 }
