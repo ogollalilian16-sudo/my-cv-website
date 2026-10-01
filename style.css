@@ -53,16 +53,26 @@ h1 + p{
 }
 table {
 	width: 100%;
-	border-collapse: collapse;
+	border-collapse: collapse !important;
 }
 
 th {
-	background-color: lightblue;
+	background-color: lightblue !important;
 }
 th'td {
-	border: 1px solid green;
+	border: 1px solid green !important;
 	padding: 10px;
 	text-align: left;
+}
+
+table{
+	border-collapse: collapse;
+}
+table, td, th {
+	border-color: green;
+}
+th {
+	background-color: lightblue;
 }
 
 
